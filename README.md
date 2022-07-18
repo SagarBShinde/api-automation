@@ -12,7 +12,7 @@
 
 
 ## Introduction
-This is simple API Automation framework based on Rest Assured + Cucumber BDD developed as a proof of concept. The framework intends to validate the some of APIs in https://petstore.swagger.io/v2 
+This is a simple API Automation framework based on Rest Assured + Cucumber BDD developed as a proof of concept. The framework intends to validate the some of APIs in https://petstore.swagger.io/v2 
 
 ## System Requirements
 The code has been tested with following configurarion
@@ -45,15 +45,15 @@ The code has been tested with following configurarion
 
 ### API End points covered
 * Pet Management
-		* /pet POST Add a new pet to the Pet store
-		* /pet PUT Update existing pet
-		* /pet/findByStatus GET Find pets by Status
-		* /pet/{petId} GET find pet by Pet Id
+** /pet POST Add a new pet to the Pet store
+** /pet PUT Update existing pet
+** /pet/findByStatus GET Find pets by Status
+** /pet/{petId} GET find pet by Pet Id
 		
 * User Management
-		* user/createWithArray POST Create multiple users using array
-		* /user/{userName} PUT Update existing user
-		* /user/{userName} GET Get user details by user name
+** user/createWithArray POST Create multiple users using array
+** /user/{userName} PUT Update existing user
+** /user/{userName} GET Get user details by user name
 		
 ### Features
 * userManagement.feature - 3 Scenarios
