@@ -19,14 +19,14 @@ Feature: Validate pet store pet management APIs
 
   @updatePet
   Scenario: Verify Pet Details are updated correctly
-    Given I get the details of the pet with "available" status
-    And I update the pet status as "sold"
+    Given I get the details of the pet with "sold" status
+    And I update the pet status as "pending"
     And I update the pet name as "Mark"
     And I create the UpdatePet payload
     When I call the "UpdatePet" API
  		Then API call is successful with Status 200
  		When I get the details of the pet by petId
- 		Then "status" in the response body is "sold"
+ 		Then "status" in the response body is "pending"
     And "name" in the response body is "Mark"
 		
     

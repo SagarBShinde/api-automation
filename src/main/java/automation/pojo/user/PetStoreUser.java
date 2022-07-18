@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class PetStoreUser {
 	
-	private double id;
+	private long id;
 	private String userName;
 	private String firstName;
 	private String lastName;
@@ -13,8 +13,8 @@ public class PetStoreUser {
 	private String phone;
 	private int userStatus;
 	
-	public String getId() {
-		return new BigDecimal(this.id).toPlainString();
+	public long getId() {
+		return this.id;
 	}
 	public void setId(int id) {
 		this.id = id;

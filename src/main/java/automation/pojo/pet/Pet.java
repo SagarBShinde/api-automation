@@ -14,8 +14,8 @@ public class Pet {
 	public long getId() {
 		return this.id;
 	}
-	public void setId(long d) {
-		this.id = d;
+	public void setId(long id) {
+		this.id = id;
 	}
 	public Category getCategory() {
 		return category;
