@@ -32,7 +32,6 @@
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>7.4.1</version>
-    <scope>test</scope>
 </dependency>
 
 
@@ -48,7 +47,6 @@
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13.2</version>
-    <scope>test</scope>
 </dependency>
 
 
