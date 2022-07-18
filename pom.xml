@@ -8,6 +8,10 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+        </configuration>
         <version>3.8.1</version>
       </plugin>
     </plugins>
@@ -34,13 +38,6 @@
     <version>7.4.1</version>
 </dependency>
 
-
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.4.0</version>
-</dependency>
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
