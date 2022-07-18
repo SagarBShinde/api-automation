@@ -46,8 +46,8 @@ The code has been tested with following configurarion
 
 ### API End points covered
 * Pet Management
- * /pet POST Add a new pet to the Pet store
- * /pet PUT Update existing pet
+** /pet POST Add a new pet to the Pet store
+/pet PUT Update existing pet
  * /pet/findByStatus GET Find pets by Status
  * /pet/{petId} GET find pet by Pet Id
 		
