@@ -1,7 +1,5 @@
 package automation.pojo.pet;
 
-import java.math.BigDecimal;
-
 public class Pet {
 	
 	private long id;

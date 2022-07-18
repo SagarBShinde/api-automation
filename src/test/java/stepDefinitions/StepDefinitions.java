@@ -1,9 +1,10 @@
 package stepDefinitions;
 
-import java.math.BigDecimal;
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
-
-
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -18,18 +19,11 @@ import automation.pojo.user.PetStoreUser;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 import utils.ApiEndpoints;
 import utils.Utils;
-
-import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
 
 
 public class StepDefinitions extends StepDefHelper{

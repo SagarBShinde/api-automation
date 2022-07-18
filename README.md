@@ -65,6 +65,7 @@ Note: Some of the scenarios in the userManagement.feature are failing due to inc
 * The User attribute is not getting updated even after successful response to the PUT call
 
 ## Future Enhancement
+* Code formatting and adding usage documentation
 * Implement mocking
 * Add Unit Tests
 * Add a new implementation for Data provider
