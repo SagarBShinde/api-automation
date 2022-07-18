@@ -5,6 +5,7 @@
 * [Instructions To Run Tests](https://github.com/SagarBShinde/api-automation/blob/master/README.md#instructions-to-run-tests)
 * [Framework Tech Stack](https://github.com/SagarBShinde/api-automation/blob/master/README.md#Framework-Tech-stack)
 * [Scope and Test Coverage](https://github.com/SagarBShinde/api-automation/blob/master/README.md#Scope-and-Test-Coverage)
+* [Future Enhancements](https://github.com/SagarBShinde/api-automation/blob/master/README.md#future-enhancements)
 
 
 
@@ -45,15 +46,15 @@ The code has been tested with following configurarion
 
 ### API End points covered
 * Pet Management
-** /pet POST Add a new pet to the Pet store
-** /pet PUT Update existing pet
-** /pet/findByStatus GET Find pets by Status
-** /pet/{petId} GET find pet by Pet Id
+* ** /pet POST Add a new pet to the Pet store
+* ** /pet PUT Update existing pet
+* ** /pet/findByStatus GET Find pets by Status
+* ** /pet/{petId} GET find pet by Pet Id
 		
 * User Management
-** user/createWithArray POST Create multiple users using array
-** /user/{userName} PUT Update existing user
-** /user/{userName} GET Get user details by user name
+* ** user/createWithArray POST Create multiple users using array
+* ** /user/{userName} PUT Update existing user
+* ** /user/{userName} GET Get user details by user name
 		
 ### Features
 * userManagement.feature - 3 Scenarios
@@ -63,7 +64,12 @@ Note: Some of the scenarios in the userManagement.feature are failing due to inc
 * Users are not getting added even after a successful POST call on the user/createWithArray end point. I am getting 200 response for the POST call
 * The User attribute is not getting updated even after successful response to the PUT call
 
-
+## Future Enhancement
+* Implement mocking
+* Add Unit Tests
+* Add a new implementation for Data provider
+* Using dependency injection framework
+* Use of Docker ??
 
 
     
